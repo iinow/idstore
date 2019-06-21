@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="확인"
+        android:id="@+id/btnPassword_check"
+        android:layout_gravity="center"
+        android:allowUndo="false"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="39dp"
+        android:layout_marginEnd="39dp"
+        android:layout_marginTop="73dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="변경하실 때에는 로그인 후 설정을 통해서 변경 가능합니다. ID Store"
+        android:id="@+id/textView"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/etxPassword_write"
+        android:layout_alignStart="@+id/etxPassword_write"
+        android:layout_marginBottom="45dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/etxPassword_write"
+        android:hint="비밀번호를 입력하세요"
+        android:layout_alignTop="@+id/btnPassword_check"
+        android:layout_toLeftOf="@+id/btnPassword_check"
+        android:layout_toStartOf="@+id/btnPassword_check" />
+
+</RelativeLayout>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:title="정렬"
+        android:id="@+id/menu_Sort"
+        app:showAsAction="ifRoom|collapseActionView"
+        android:icon="@android:drawable/ic_menu_sort_alphabetically"/>
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="설정"
+        app:showAsAction="never"></item>
+
+    <item
+        android:id="@+id/action_bar"
+        android:orderInCategory="200"
+        android:title="도움말"
+        app:showAsAction="never"></item>
+
+    <item
+        android:id="@+id/action_Save"
+        android:orderInCategory="300"
+        android:title="저장"
+        app:showAsAction="never"></item>
+
+    <item
+        android:id="@+id/action_Load"
+        android:orderInCategory="400"
+        android:title="불러오기"
+        app:showAsAction="never"></item>
+
+
+</menu>
